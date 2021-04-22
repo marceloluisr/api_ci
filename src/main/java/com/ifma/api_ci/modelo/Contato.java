@@ -13,7 +13,7 @@ public class Contato {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 
-	@NotEmpty(message="O DDD deve ser preenchido")
+	//@NotEmpty(message="O DDD deve ser preenchido")
 	private String ddd;
 
 	@NotEmpty(message="O Telefone deve ser preenchido")
